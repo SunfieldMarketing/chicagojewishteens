@@ -76,7 +76,7 @@ export default function PhotosPage() {
              <X size={44} />
            </button>
            <div className="relative max-w-5xl w-full h-[80vh] rounded-[3rem] overflow-hidden shadow-[0_0_100px_rgba(0,56,168,0.4)]" onClick={(e) => e.stopPropagation()}>
-              <img src={selectedImage} alt="Fullscreen" className="w-full h-full object-contain" />
+              <Image src={selectedImage} alt="Fullscreen" fill className="object-contain" />
            </div>
         </div>
       )}
